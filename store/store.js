@@ -20,7 +20,7 @@ const useCart = create(
           cartContent: mycart,
         }));
       },
-      clearCart: () => set({ totalqty:0 total: 0, cartContent: [] }),
+      clearCart: () => set({ totalqty: 0, total: 0, cartContent: [] }),
       removeFromCart: (params) =>
         set((state) => ({
           total: state.total - params.price * params.quantity,

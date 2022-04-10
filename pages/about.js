@@ -1,4 +1,3 @@
-import useCart from '../store/store';
 import Header from '../components/Header';
 
 export default function Home() {

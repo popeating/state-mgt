@@ -2,10 +2,8 @@ import useCart from '../store/store';
 import Header from '../components/Header';
 import { useEffect, useState } from 'react';
 import { products } from '../lib/products';
-import { Image } from 'next/image';
 
 export default function Home() {
-  const total = useCart((state) => state.total);
   const addTocart = useCart((state) => state.addTocart);
   const updatecart = useCart((state) => state.updatecart);
   const mycart = useCart((state) => state.cartContent);
@@ -18,10 +16,7 @@ export default function Home() {
       addTocart(params);
     }
   };
-  const [mytotal, setTotal] = useState();
-  useEffect(() => {
-    setTotal(total);
-  }, [total]);
+
   return (
     <>
       <Header />
