@@ -1,6 +1,5 @@
 import useCart from '../store/store';
 import Header from '../components/Header';
-import { useEffect, useState } from 'react';
 import { products } from '../lib/products';
 
 export default function Home() {
