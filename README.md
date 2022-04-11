@@ -1,3 +1,6 @@
+This project is the source for my tutorial "Managing persistent States in Nextjs with Zustand
+" that you can [find here](https://popeating.medium.com/managing-persistent-states-in-nextjs-with-zustand-e6feea1a2d36)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
